@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    font-size: 16px;
+    background-image: url(../photos/w1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #008080;
+
+}
+.logo{
+    font-size: 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: white;
+}
+span{
+    color: #571021;
+
+}
+#pp{
+    color: black;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.container{
+    color: white;
+    margin-left: 10%;
+    margin-top: 5%;
+    gap: 10%;
+
+}
+h3{
+    font-size: 30px;
+}
+.contact-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+#message{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+.input-g{
+    display: flex;
+    flex-direction: column;
+    background-color: #008080;
+    color: black;
+    border-radius: 10px;
+    padding: 30px;
+}
+.inp{
+    margin: 15px;
+    font-size: 20px;
+    
+}
+#submitt{
+    margin-top: 10px;
+    border: #008080 solid;
+    border-radius: 30px;
+    height: 40px;
+    width: 90px;
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    justify-content: baseline;
+    background-color: #008080;
+    padding: 20px;
+    color: white;
+}
+.boxes{
+    height: 25px;
+    border: black 1px solid;
+    border-radius: 20px;
+    width: 60%;
+}
+.boxe{height: 25px;
+    border: black 1px solid;
+    border-radius: 20px;
+    width: 40%;
+
+}

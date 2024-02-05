@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    background-image: url(../photos/w1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #008080;
+
+}
+.logo{
+    font-size: 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: white;
+}
+span{
+    color: #571021;
+
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+h2{
+    color: white;
+    margin: 30px;
+    font-size: 35px;
+    /* text-align: center; */
+    margin-top: 40px;
+
+}
+#photo{
+    height: 270px;
+    border: #008080 solid 3px;
+    border-radius: 30px;
+    margin-left: 0%;
+    margin-bottom: 25px;
+}
+.text{
+    color:white;
+    width: 60%;
+    margin-left: 23%;
+    border: #008080 solid 2px;
+    /* background-color:white; */
+    font-size: large;
+    padding: 10px;
+    letter-spacing: .5px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cards{
+    color: white;
+    width: 250px;
+    background-color: #008080;
+    margin-left: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: black 2px solid;
+}
+.skilll{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: large;
+}
+.card{
+    color: white;
+    width: 350px;
+    background-color: #008080;
+    margin-left: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: black 2px solid;
+}
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    justify-content: baseline;
+    background-color: #008080;
+    padding: 20px;
+    color: white;
+}
+.container{
+    display: flex;
+   justify-content: space-evenly;
+   margin: 5%;
+}
+h2{
+    color: black;
+}
+#pp{
+    color: black;
+}

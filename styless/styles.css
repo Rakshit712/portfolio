@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../photos/w1.jpg);
+    background-size: cover;
+    /* background-position: center; */
+}
+#navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #008080;
+
+}
+.logo{
+    font-size: 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: white;
+}
+span{
+    color: #69031b;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.heading{
+    /* position: relative; */
+    height: 40vh;
+    margin-top: 10%;
+    margin-left: 10%;
+    
+    /* transform: translateZ(-50%); */
+    color: white;
+    display: block;
+}
+h1{
+    margin: 10px opx 10px;
+    font-size: 75px;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.social-icons{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+}
+.social{
+    display: flex;
+    justify-content: start;
+    /* margin-top: 1rem; */
+    gap: 2rem;
+    /* background-color: black; */
+    height: 60px;
+    cursor: pointer;
+    margin-left: 10%;
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 265px;
+    /* align-items: center; */
+    justify-content: baseline;
+    background-color: #008080;
+    padding: 20px;
+    color: white;
+    
+}
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon{
+    border-radius: 40%;
+}
+#porto{
+    font-size: larger;
+    color: black;
+
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    
+}
+#HH{
+    color: black;
+}
